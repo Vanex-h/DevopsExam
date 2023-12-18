@@ -1,4 +1,5 @@
 package rca.devopsExam.y3B.controller;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
@@ -15,6 +16,7 @@ import rca.devopsExam.y3B.calculator.payloads.ApiResponse;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class MathControllerTest {
+
     @Autowired
     private TestRestTemplate restTemplate;
 
@@ -22,7 +24,7 @@ public class MathControllerTest {
     public void doMathOperation_Success(){
         DoMathRequestDto dto = new DoMathRequestDto(2, 5, "+");
 
-        ResponseEntity<ApiResponse> response = this.restTemplate.postForEntity("/api/calculator/do_math",dto,ApiResponse.class);
+        ResponseEntity<ApiResponse> response = this.restTemplate.postForEntity("/api/v1/do_math",dto,ApiResponse.class);
 
         assertEquals(200, response.getStatusCode().value());
     }
