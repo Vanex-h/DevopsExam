@@ -8,7 +8,7 @@ import rca.devopsExam.y3B.calculator.payloads.ApiResponse;
 import rca.devopsExam.y3B.calculator.serviceImpl.MathOperatorImpl;
 
 @RestController
-@RequestMapping("/api/v1/do_math")
+@RequestMapping("/api/calculator/do_math")
 public class MathController {
     private final MathOperatorImpl mathOperatorImpl;
 
