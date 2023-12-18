@@ -7,9 +7,6 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @SpringBootApplication
 @EnableAsync
 @EnableCaching
-
-
-
 public class MainCalculatorApp {
     public static void main(String[] args) {
         SpringApplication.run(MainCalculatorApp.class, args);

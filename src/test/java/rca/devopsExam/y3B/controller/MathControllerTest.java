@@ -24,7 +24,7 @@ public class MathControllerTest {
     public void doMathOperation_Success(){
         DoMathRequestDto dto = new DoMathRequestDto(2, 5, "+");
 
-        ResponseEntity<ApiResponse> response = this.restTemplate.postForEntity("/api/v1/do_math",dto,ApiResponse.class);
+        ResponseEntity<ApiResponse> response = this.restTemplate.postForEntity("/api/calculator/do_math",dto,ApiResponse.class);
 
         assertEquals(200, response.getStatusCode().value());
     }

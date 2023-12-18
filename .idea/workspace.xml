@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="af35a49f-607c-498b-89f8-a42bc04a674b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rca/devopsExam/y3B/controller/MathControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rca/devopsExam/y3B/service/MathOperatorServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rca/devopsExam/y3B/service/MathOperatorServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rca/devopsExam/y3B/calculator/MainCalculatorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rca/devopsExam/y3B/calculator/MainCalculatorApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rca/devopsExam/y3B/controller/MathControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rca/devopsExam/y3B/controller/MathControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MainCalculatorAppTests">
+  <component name="RunManager" selected="Spring Boot.MainCalculatorApp">
     <configuration name="MainCalculatorAppTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exam" />
       <extension name="coverage">
@@ -77,6 +77,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="rca.devopsExam.y3B" />
       <option name="MAIN_CLASS_NAME" value="rca.devopsExam.y3B.MainCalculatorAppTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathControllerEndToEndTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rca.devopsExam.y3B.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rca.devopsExam.y3B.controller" />
+      <option name="MAIN_CLASS_NAME" value="rca.devopsExam.y3B.controller.MathControllerEndToEndTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,22 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathOperatorServiceTest.should_create_math_operation_multiplication_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rca.devopsExam.y3B.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rca.devopsExam.y3B.service" />
-      <option name="MAIN_CLASS_NAME" value="rca.devopsExam.y3B.service.MathOperatorServiceTest" />
-      <option name="METHOD_NAME" value="should_create_math_operation_multiplication_success" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainCalculatorApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Exam" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="rca.devopsExam.y3B.calculator.MainCalculatorApp" />
@@ -144,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainCalculatorAppTests" />
-        <item itemvalue="JUnit.MathControllerTest (1)" />
-        <item itemvalue="JUnit.MathControllerTest.doMathOperation_Success" />
-        <item itemvalue="JUnit.MathOperatorServiceTest.should_create_math_operation_multiplication_success" />
         <item itemvalue="Spring Boot.MainCalculatorApp" />
+        <item itemvalue="JUnit.MathControllerEndToEndTest" />
+        <item itemvalue="JUnit.MathControllerTest (1)" />
+        <item itemvalue="JUnit.MainCalculatorAppTests" />
+        <item itemvalue="JUnit.MathControllerTest.doMathOperation_Success" />
       </list>
     </recent_temporary>
   </component>
@@ -160,11 +159,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702882427008</updated>
-      <workItem from="1702882428252" duration="5404000" />
+      <workItem from="1702882428252" duration="7514000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DevopsExam$MathControllerTest__1_.ic" NAME="MathControllerTest (1) Coverage Results" MODIFIED="1702888202324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>rca.devopsExam.y3B.controller.*</FILTER>
+    </SUITE>
   </component>
 </project>
