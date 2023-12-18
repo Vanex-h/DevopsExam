@@ -28,4 +28,5 @@ public class MathControllerTest {
 
         assertEquals(200, response.getStatusCode().value());
     }
+
 }

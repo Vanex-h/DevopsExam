@@ -1,4 +1,4 @@
-package rca.devopsExam.y3B.calculator;
+package rca.devopsExam.y3B;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;

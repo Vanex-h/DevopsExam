@@ -1,4 +1,4 @@
-package rca.devopsExam.y3B.controller;
+package rca.devopsExam.y3B.endToEnd;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
 public class MathControllerEndToEndTest {
 
     @LocalServerPort
-    private int port=8080;
+    private int port=8000;
 
     private final TestRestTemplate restTemplate = new TestRestTemplate();
 
