@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="af35a49f-607c-498b-89f8-a42bc04a674b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rca/devopsExam/y3B/calculator/MainCalculatorApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rca/devopsExam/y3B/controller/MathControllerEndToEndTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/rca/devopsExam/y3B/controller/MathControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rca/devopsExam/y3B/controller/MathControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rca/devopsExam/y3B/endToEnd/MathControllerEndToEndTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rca/devopsExam/y3B/endToEnd/MathControllerEndToEndTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,111 +48,119 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "b66068cf75e5acb6cf1af2ad1d0642ed",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="rca.devopsExam.y3B.endToEnd" />
       <recent name="rca.devopsExam.y3B.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MathControllerTest (1)">
-    <configuration name="MainCalculatorAppTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MathControllerEndToEndTest.testDoMathUnknownOperation">
+    <configuration name="MathControllerEndToEndTest.testDoMathDivision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rca.devopsExam.y3B.*" />
+          <option name="PATTERN" value="rca.devopsExam.y3B.endToEnd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rca.devopsExam.y3B" />
-      <option name="MAIN_CLASS_NAME" value="rca.devopsExam.y3B.MainCalculatorAppTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MathControllerEndToEndTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rca.devopsExam.y3B.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rca.devopsExam.y3B.controller" />
-      <option name="MAIN_CLASS_NAME" value="rca.devopsExam.y3B.controller.MathControllerEndToEndTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MathControllerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rca.devopsExam.y3B.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rca.devopsExam.y3B.controller" />
-      <option name="MAIN_CLASS_NAME" value="rca.devopsExam.y3B.controller.MathControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MathControllerTest.doMathOperation_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rca.devopsExam.y3B.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rca.devopsExam.y3B.controller" />
-      <option name="MAIN_CLASS_NAME" value="rca.devopsExam.y3B.controller.MathControllerTest" />
-      <option name="METHOD_NAME" value="doMathOperation_Success" />
+      <option name="PACKAGE_NAME" value="rca.devopsExam.y3B.endToEnd" />
+      <option name="MAIN_CLASS_NAME" value="rca.devopsExam.y3B.endToEnd.MathControllerEndToEndTest" />
+      <option name="METHOD_NAME" value="testDoMathDivision" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainCalculatorApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="MathControllerEndToEndTest.testDoMathDivisionByZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exam" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="rca.devopsExam.y3B.calculator.MainCalculatorApp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rca.devopsExam.y3B.calculator.*" />
+          <option name="PATTERN" value="rca.devopsExam.y3B.endToEnd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="rca.devopsExam.y3B.endToEnd" />
+      <option name="MAIN_CLASS_NAME" value="rca.devopsExam.y3B.endToEnd.MathControllerEndToEndTest" />
+      <option name="METHOD_NAME" value="testDoMathDivisionByZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathControllerEndToEndTest.testDoMathMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rca.devopsExam.y3B.endToEnd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rca.devopsExam.y3B.endToEnd" />
+      <option name="MAIN_CLASS_NAME" value="rca.devopsExam.y3B.endToEnd.MathControllerEndToEndTest" />
+      <option name="METHOD_NAME" value="testDoMathMultiplication" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathControllerEndToEndTest.testDoMathSubtraction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rca.devopsExam.y3B.endToEnd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rca.devopsExam.y3B.endToEnd" />
+      <option name="MAIN_CLASS_NAME" value="rca.devopsExam.y3B.endToEnd.MathControllerEndToEndTest" />
+      <option name="METHOD_NAME" value="testDoMathSubtraction" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathControllerEndToEndTest.testDoMathUnknownOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rca.devopsExam.y3B.endToEnd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rca.devopsExam.y3B.endToEnd" />
+      <option name="MAIN_CLASS_NAME" value="rca.devopsExam.y3B.endToEnd.MathControllerEndToEndTest" />
+      <option name="METHOD_NAME" value="testDoMathUnknownOperation" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MathControllerTest (1)" />
-        <item itemvalue="JUnit.MainCalculatorAppTests" />
-        <item itemvalue="Spring Boot.MainCalculatorApp" />
-        <item itemvalue="JUnit.MathControllerEndToEndTest" />
-        <item itemvalue="JUnit.MathControllerTest.doMathOperation_Success" />
+        <item itemvalue="JUnit.MathControllerEndToEndTest.testDoMathUnknownOperation" />
+        <item itemvalue="JUnit.MathControllerEndToEndTest.testDoMathDivisionByZero" />
+        <item itemvalue="JUnit.MathControllerEndToEndTest.testDoMathDivision" />
+        <item itemvalue="JUnit.MathControllerEndToEndTest.testDoMathMultiplication" />
+        <item itemvalue="JUnit.MathControllerEndToEndTest.testDoMathSubtraction" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1702882427008</updated>
       <workItem from="1702882428252" duration="8263000" />
+      <workItem from="1702890719088" duration="1619000" />
     </task>
     <servers />
   </component>

@@ -22,7 +22,7 @@ public class MathControllerTest {
 
     @Test
     public void doMathOperation_Success(){
-        DoMathRequestDto dto = new DoMathRequestDto(2, 5, "+");
+        DoMathRequestDto dto = new DoMathRequestDto(22, 18, "+");
 
         ResponseEntity<ApiResponse> response = this.restTemplate.postForEntity("/api/calculator/do_math",dto,ApiResponse.class);
 
