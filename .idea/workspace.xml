@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af35a49f-607c-498b-89f8-a42bc04a674b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rca/devopsExam/y3B/controller/MathControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rca/devopsExam/y3B/controller/MathControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rca/devopsExam/y3B/endToEnd/MathControllerEndToEndTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rca/devopsExam/y3B/endToEnd/MathControllerEndToEndTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="af35a49f-607c-498b-89f8-a42bc04a674b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +69,22 @@
       <recent name="rca.devopsExam.y3B.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MathControllerEndToEndTest.testDoMathUnknownOperation">
+  <component name="RunManager" selected="JUnit.MathControllerEndToEndTest">
+    <configuration name="MathControllerEndToEndTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rca.devopsExam.y3B.endToEnd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rca.devopsExam.y3B.endToEnd" />
+      <option name="MAIN_CLASS_NAME" value="rca.devopsExam.y3B.endToEnd.MathControllerEndToEndTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MathControllerEndToEndTest.testDoMathDivision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exam" />
       <extension name="coverage">
@@ -122,22 +133,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathControllerEndToEndTest.testDoMathSubtraction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rca.devopsExam.y3B.endToEnd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rca.devopsExam.y3B.endToEnd" />
-      <option name="MAIN_CLASS_NAME" value="rca.devopsExam.y3B.endToEnd.MathControllerEndToEndTest" />
-      <option name="METHOD_NAME" value="testDoMathSubtraction" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MathControllerEndToEndTest.testDoMathUnknownOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exam" />
       <extension name="coverage">
@@ -156,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MathControllerEndToEndTest" />
         <item itemvalue="JUnit.MathControllerEndToEndTest.testDoMathUnknownOperation" />
         <item itemvalue="JUnit.MathControllerEndToEndTest.testDoMathDivisionByZero" />
         <item itemvalue="JUnit.MathControllerEndToEndTest.testDoMathDivision" />
         <item itemvalue="JUnit.MathControllerEndToEndTest.testDoMathMultiplication" />
-        <item itemvalue="JUnit.MathControllerEndToEndTest.testDoMathSubtraction" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1702882427008</updated>
       <workItem from="1702882428252" duration="8263000" />
-      <workItem from="1702890719088" duration="1619000" />
+      <workItem from="1702890719088" duration="2018000" />
     </task>
     <servers />
   </component>
